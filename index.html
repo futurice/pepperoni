@@ -1,36 +1,369 @@
 <!doctype html>
+<html class="no-js" lang="">
 
-<html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Pepperoni - Empowered by Futurice</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-  <style type="text/css">
-    html, body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
-    body {
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: white;
-    }
-    .logo {
-      width: 50%;
-    }
-  </style>
+  <meta name="description" content="Pepperoni is a free and open-source framework to kickstart your mobile product development.”">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet'
+    type='text/css'>
+
+  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+  <!-- Google analytics  -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-77738740-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </head>
 
-<body>
-  <img src="pepperoni.svg" class="logo" alt="Pepperoni - Empowered by Futurice" />
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+  <!-- Navigation -->
+  <div class="navbar navbar-default navbar-fixed-top sticky-navigation" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+        </button>
+        <a href="#home" class="navbar-brand">
+          <img src="img/logo.svg" alt="Pepperoni - Empowered by Futurice" title="Pepperoni - Empowered by Futurice"
+            class="img-responsive header-logo wow fadeInUp" data-wow-delay="1s"
+          />
+        </a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right main-nav">
+          <li><a href="#home" class="smoothScroll">HOME</a></li>
+          <li><a href="#what" class="smoothScroll">WHAT</a></li>
+          <li><a href="#why" class="smoothScroll">WHY</a></li>
+          <li><a href="#start" class="smoothScroll">START</a></li>
+          <li><a href="#feature" class="smoothScroll">FEATURES</a></li>
+          <li><a href="#about" class="smoothScroll">ABOUT</a></li>
+          <li class="poweredby"><a href="http://futurice.com" target="_blank">Empowered by
+            <img src="img/futurice_logo-small.svg"
+            alt="Pepperoni - Powered by Futurice"
+            title="Pepperoni - Powered by Futurice"
+            class="img-responsive" /></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- home section -->
+  <section id="home">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-12 col-sm-12">
+          <h3 class="wow fadeInDown home-heading" data-wow-delay="0.6s">
+            Free and open-source framework to kickstart your mobile product development for Android and iOS platforms
+            powered by React Native
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What section -->
+  <section id="what">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6  wow fadeInLeft" data-wow-delay="1.2s">
+          <div class="section-title">
+            <h3>WHAT IS PEPPERONI?</h3>
+            <p class="subheading">Delicious framework for mobile development</p>
+            <hr>
+          </div>
+          <p class="lead">
+            A blueprint for building cross platform mobile experiences rapily using ready-to-use
+            integrated building blocks for common mobile app features.
+          </p>
+          <p class="lead">
+            Under the hood the startup kit is crafted on a solid foundation with a modern
+            architecture and industry best practices, featuring:
+          </p>
+          <ul class="text-left list-padding">
+            <li>
+              <p>
+                Native mobile apps built with <a href="https://facebook.github.io/react-native/"
+                  target="_blank">React Native</a> by Facebook and <a href="https://github.com/reactjs/redux" target="_blank">Redux</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                Mobile backend powered by NodeJS and PostgreSQL - Coming soon
+              </p>
+            </li>
+            <li>
+              <p>
+                Cloud-ready for Heroku, Amazon Web Services, Google Cloud Platform, Microsoft
+                Azure, etc - or host it yourself!
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-4 wow fadeInRight" data-wow-delay="0.7s">
+          <img src="img/pepperoni_man.svg" class="img-responsive hidden-xs" alt="Mobile outline"
+            title="Mobile outline">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why section -->
+  <section id="why">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <div class="section-title center">
+            <h3>WHY?</h3>
+            <p class="subheading">Pepperoni makes your life better</p>
+              <hr>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="wow fadeInUp col-spacing" data-wow-delay="0.3s">
+            <div>
+              <h4>Product first</h4>
+            </div>
+            <p>
+              Focus on features that set you apart from the competition, instead of building
+              from the ground up.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="wow fadeInUp col-spacing" data-wow-delay="0.5s">
+            <div>
+              <h4>Faster time to market</h4>
+            </div>
+            <p>
+              Faster build up. Iterate and test ideas easily.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="wow fadeInUp col-spacing" data-wow-delay="0.7s">
+            <div>
+              <h4>One team, full stack</h4>
+            </div>
+            <p>
+              Same technology for your apps, backend and web presence, maintainable by single
+              cross-functional team.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Getting started -->
+  <section id="start">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <div class="section-title center">
+            <h3>GETTING STARTED</h3>
+            <p>
+              Easy as pie
+            </p>
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <p class="lead">
+            Get started by following the instructions on our github repository:</p>
+        </div>
+        <div class="col-md-4">
+          <div class="github-link">
+            <a href="https://github.com/futurice/react-native-kindling" target="_blank"><img src="img/github_logo.png" alt="Github link" /></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <p>
+            Alternatively, <a href="#about">contact us</a> and Futurice can
+            build your product with you!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- feature section -->
+  <section id="feature">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <div class="section-title center">
+            <h3>FEATURES</h3>
+            <p class="subheading">What's included in Pepperoni</p>
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="row feature-list">
+        <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+          <p>Pre-built common use app components / App boilerplate</p>
+          <hr>
+          <p>Login/authentication - User management</p>
+          <hr>
+          <p>Messaging (whatsapp style)</p>
+          <hr>
+          <p>Push notifications</p>
+          <hr />
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInUp hidden-sm hidden-xs" data-wow-delay="0.9s">
+          <img src="img/pepperoni.svg" class="img-responsive" alt="features">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1s">
+          <p>Cloud-ready backend</p>
+          <hr>
+          <!--rewrite this with jani-->
+          <p>Continuously deploy new versions of you application to your users
+            without App Store delay</p>
+          <hr>
+          <p>...and many more to come.</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About section -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+            <img src="img/futurice_logo.png" alt="Futurice" title="Futurice" class="img-responsive futurice-logo center-block" />
+          <hr />
+          <p class="wow fadeInUp" data-wow-delay="0.6s">This project is brought to you by <a href="http://futurice.com" target="_blank">Futurice</a>.
+            We craft and build meaningful services.</p>
+          <!-- This text should be different / smaller than previous -->
+          <p class="wow fadeInUp" data-wow-delay="0.6s">Futurice specialises in Service Design, Business Development and Software
+            Engineering.
+          </p>
+          <div class="text-center">
+            <h4 class="wow fadeInUp" data-wow-delay="0.6s">
+              Also by us:
+            </h4>
+            <!-- This probably needs to be a list -->
+            <p class="wow fadeInUp" data-wow-delay="0.6s">
+              <a href="https://github.com/futurice/android-best-practices" target="_blank">
+                Android best practices
+              </a> |
+              <a href="https://github.com/futurice/ios-good-practices" target="_blank">
+                iOS best practices
+              </a> |
+              <a href="http://iotservicekit.com/" target="_blank">
+                IOT service kit
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer section -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <div class="section-title center text-center">
+            <h3>Stay up-to-date with Pepperoni</h3>
+            <p>
+              Subscribe now!
+            </p>
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center">
+          <!-- Begin MailChimp Signup Form -->
+          <div id="mc_embed_signup">
+            <form action="//getpepperoni.us13.list-manage.com/subscribe/post?u=1b3311313c396677a7cde2823&amp;id=603005da11"
+              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+              class="validate form-inline" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+                <!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
+                <div class="mc-field-group">
+                  <div class="form-group">
+                    <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
+                    </label>
+                    <input type="email" value="" name="EMAIL" class="required email form-control"
+                      id="mce-EMAIL">
+                  </div>
+                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                    class="button btn btn-default">
+                </div>
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                  <input type="text" name="b_1b3311313c396677a7cde2823_603005da11" tabindex="-1"
+                    value="">
+                </div>
+              </div>
+            </form>
+          </div>
+          <!--End mc_embed_signup-->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+          <p class="text-center">
+            <a href="https://www.facebook.com/getpepperoni" target="_blank" class="wow fadeIn"
+              data-wow-delay="0.3s">
+              <img src="img/social_icon_facebook.png" alt="Facebook - Get Pepperoni" title="Facebook - Get Pepperoni"
+                class="img-responsive social-icon" />
+            </a>
+            <a href="https://twitter.com/getpepperoni" target="_blank" class="wow fadeIn"
+              data-wow-delay="0.3s">
+              <img src="img/social_icon_twitter.png" alt="Twitter - Get Pepperoni" title="Twitter - Get Pepperoni"
+                class="img-responsive social-icon" />
+            </a>
+          </p>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- /container -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write(
+      '<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+  </script>
+
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/vendor/jquery.nav.js"></script>
+  <script src="js/vendor/owl.carousel.min.js"></script>
+  <script src="js/vendor/wow.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
