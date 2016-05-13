@@ -1,3 +1,3 @@
 # Pepperoni
-The marketing site for the pepperoni, empowered by Futurice!
-[Visit the repo here](https://github.com/futurice/pepperoni-app-kit)
+The marketing site for pepperoni, empowered by Futurice!
+[Visit the repo here](https://github.com/futurice/pepperoni-app-kit).
