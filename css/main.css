@@ -314,6 +314,9 @@ th:first-child, td:first-child {
 #about p {
   margin-bottom: 20px;
 }
+.no-underline {
+  border: 0 !important;
+}
 .futurice-logo {
   width: 150px;
   margin-bottom: 20px;
