@@ -402,4 +402,7 @@ footer .social-icon {
     width: 70%;
     margin: 0 auto;
   }
+  #feature {
+    padding-bottom: 30px;
+  }
 }
