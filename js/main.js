@@ -7,6 +7,9 @@ $(window).scroll(function() {
 });
 
 $(document).ready(function() {
+
+    $("body").hide().fadeIn(1000);
+
     $('.main-nav').onePageNav({
         scrollThreshold: 0.5,
         changeHash: true
