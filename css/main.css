@@ -105,24 +105,16 @@ ul.list-padding {
   }
   .navbar-nav {
     position: relative;
-    padding-right: 105px;
+    padding-right: 153px;
   }
   .poweredby {
     background-color: #39babd;
     border-radius: 50%;
     height: 100px;
     position: absolute !important;
-    right: 0;
+    right: 55px;
     top: 15px;
     width: 100px;
-  }
-  .navbar-default .navbar-nav .poweredby a, .navbar.shrink .navbar-nav .poweredby a {
-    font-size: 8px;
-    font-weight: normal;
-    letter-spacing: 0.5px;
-    line-height: 8px;
-    text-transform: uppercase;
-    transition: none;
   }
   .navbar-nav .poweredby img {
     width: 220px;
@@ -132,6 +124,22 @@ ul.list-padding {
   }
   .navbar.shrink .navbar-nav .poweredby a {
     padding-top: 42px;
+  }
+  .nav-github {
+    position: absolute !important;
+    right: 0;
+    top: 3px;
+  }
+  .navbar.shrink .nav-github {
+    top: -14px;
+  }
+  .navbar-default .navbar-nav .poweredby a, .navbar.shrink .navbar-nav .poweredby a {
+    font-size: 8px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    line-height: 8px;
+    text-transform: uppercase;
+    transition: none;
   }
 }
 @media screen and (min-width: 992px) {
@@ -144,6 +152,7 @@ ul.list-padding {
   border: none;
   margin: 0 !important;
   padding: 0;
+  z-index: 99999;
 }
 .navbar-default .navbar-brand {
   color: #ffffff;
@@ -371,11 +380,17 @@ footer .social-icon {
   }
 }
 
-/* Up to small */
+/* Mobile only */
 
 @media screen and (max-width: 768px) {
   .navbar-default .navbar-nav li a {
     line-height: 16px;
+  }
+  .poweredby {
+    height: 50px;
+  }
+  .poweredby img {
+    height: 42px;
   }
   #home {
     padding-top: 70px;
