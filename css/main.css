@@ -19,12 +19,14 @@ h1, h2, h3, h4 {
 p {
   letter-spacing: 0.5px;
   line-height: 28px;
+  font-size: 15px;
 }
 p.lead {
   font-size: 18px;
 }
 p.subheading {
   color: #666;
+  font-size: 17px;
 }
 a {
   outline: none !important;
@@ -200,7 +202,7 @@ ul.list-padding {
 }
 #home .home-heading {
   color: #ffffff;
-  line-height: 45px;
+  line-height: 38px;
 }
 @media screen and (min-width: 768px) {
   #home {
@@ -209,6 +211,7 @@ ul.list-padding {
   #home .home-heading {
     margin: 180px 130px 0;
     text-align: center;
+    line-height: 45px;
   }
 }
 
