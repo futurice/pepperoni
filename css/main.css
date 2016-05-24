@@ -130,7 +130,7 @@ ul.list-padding {
   .nav-github {
     position: absolute !important;
     right: 0;
-    top: 3px;
+    top: 5px;
   }
   .navbar.shrink .nav-github {
     top: -14px;
